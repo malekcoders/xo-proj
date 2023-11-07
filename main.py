@@ -51,8 +51,9 @@ root=Tk()
 root.title("XO Game")
 
 # Challenge 06 easy: make player choice random between X and O at the start of the game
-player='X'    
-  
+XO = ["X", "O"]
+player = random.choice(XO)
+
 colour={
     'O':"blue",
     'X':"red"}
