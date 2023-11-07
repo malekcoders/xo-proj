@@ -47,8 +47,8 @@ def click(row,col):
 
 root=Tk()
                 
-# Challenge 05 easy: add text title to the program, and name it "XO Game"
-# your code 
+# creating title
+root.title("XO Game")
 
 # Challenge 06 easy: make player choice random between X and O at the start of the game
 player='X'    
