@@ -8,7 +8,7 @@ The game have bugs!, and your task is to solve them.
 *  Challenge 02 : write the implementation of reset() method.
 *  Challenge 03 : show pop-up message when game is over in the reset method.
 *  Challenge 04 : add text title to the program, and name it "XO Game".
-*  Challenge 05 : make player choose random between X and O at the start of the game.
+*  Challenge 05 : make the player start with random value between X and O.
 
 ## Steps
 1. Fork the project
