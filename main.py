@@ -12,13 +12,12 @@ def playerChoice():
     player = 'O' # remove this line when you implement your code
 
 def reset():
-    # Challenge 02 hard: write implementation of reset() method 
-    # Challenge 03 easy: show pop-up message when game is over
-    root.quit() # remove this line when you implemet your code
+    # Challenge 02 hard: write an implementation of reset() method 
+    root.quit() # Remove this line when you implement your code
     
 
 def check(): 
-    # Challenge 04 easy: write pop-up message when game is over before the reset method               
+    # Challenge 03 easy: write pop-up message when game is over before the reset method               
     # horizontal and vertical check                
     for i in range(3):
         if(choice[i][0]["text"] == choice[i][1]["text"] == choice[i][2]["text"] == player
@@ -47,12 +46,11 @@ def click(row,col):
 
 root=Tk()
                 
-# creating title
-root.title("XO Game")
+# Challenge 04 : add text title to the program, and name it "XO Game".
 
-# Challenge 06 easy: make player choice random between X and O at the start of the game
-XO = ["X", "O"]
-player = random.choice(XO)
+
+# Challenge 05 easy: make player choice random between X and O at the start of the game
+Player = 'X'
 
 colour={
     'O':"blue",
